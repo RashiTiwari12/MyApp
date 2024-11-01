@@ -1,12 +1,8 @@
 import "./App.css";
-import Home from "./pages/HomePage/Home";
+import Body from "./pages/Body.jsx";
 
 function App() {
-  return (
-    <>
-      <Home />
-    </>
-  );
+  return <Body />;
 }
 
 export default App;
